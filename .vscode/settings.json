@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Immersive Worlds.sln"
+    "dotnet.defaultSolution": "Immersive Worlds 2.0.sln"
 }
