@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class penroseButton : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -24,8 +25,11 @@ public class penroseButton : MonoBehaviour
 
     public void Selected(){
         Debug.Log("Selected");
-        GetComponent<Renderer>().material.SetColor("_BaseColor",new Color( 169.0f , 209.0f , 255.0f , 1.0f  ));
+	    GetComponent<Renderer>().material.SetColor("_BaseColor",Color.blue);
+    
     }
+
+
 
     public void Activated(){
         Debug.Log("activated");
