@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class penroseButton : MonoBehaviour
+public class statueButton : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,6 @@ public class penroseButton : MonoBehaviour
 
     public void Hovered(){
 	Debug.Log("hovered");
-    transform.Rotate(Vector3.up* Time.deltaTime);
     }
 
 
